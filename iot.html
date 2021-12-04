@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página sobre Tecnología Educativa</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <!--TODO: ENCABEZAZO Y MENU -->
+    <header class="encabezado">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="programacion.html">Programación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="robotica.html">Robótica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="impresion.html">Impresión 3D</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iot.html">IoT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--  *************************************** -->
+    <!-- TODO: PRIMER CONTENEDOR DE LA PÁGINA -->
+
+    <div class="container mt-4 mb-4">
+      <div class="row  align-items-center">
+        <!-- TODO: SECCIÓN UNO -->
+        <section class="col-sm-12 col-md-6 col-lg-8 mb-4">
+          <h2>Internet de las Cosas</h2>
+          <p>
+            Cuando hablamos de internet lo que hacemos es hablar de la red de interconexión entre los diferentes ordenadores en el mundo. Pues bien, el llamado Internet de las cosas no es sino una red de interconexión digital entre dispositivos, personas y la propia Internet que permite el intercambio de datos entre ellos, permitiendo que se pueda capturar información clave sobre el uso y el rendimiento de los dispositivos y los objetos para detectar patrones, hacer recomendaciones, mejorar la eficiencia y crear mejores experiencias para los usuarios.
+          </p>
+          <!-- TODO: MODAL CON MAS INFO -->
+          
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iot">
+            más info...
+          </button>
+          
+
+          <!-- Modal -->
+          <div class="modal fade" id="iot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Internet de las Cosas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Así, el Internet de las cosas es algo así como un concepto intangible, es la conexión por ejemplo entre tu smartphone y los dispositivos smart que tienes en casa para controlar la iluminación o el aire acondicionado, es una Raspberry Pi que controla la programación de tu televisor, o es un robot aspiradora que configuras desde tu teléfono móvil para que te limpie la casa automáticamente cuando no estás
+                  </p>
+                  <p>
+                    El internet de las cosas nace por tanto desde el momento en que ya no solo los ordenadores se encuentran en la red de redes, sino también los dispositivos que acceden a la misma para obtener información a tiempo real que requieren para poder dar de manera eficiente y precisa sus servicios.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- TODO: FIN DEL MODAL -->
+        </section>
+
+         <!-- TODO: SECCIÓN DOS-->
+        <section class="col-sm-12 col-md-6 col-lg-4">
+
+          <div class="ratio ratio-16x9">
+
+            <iframe
+              
+              src="https://www.youtube.com/embed/c8D57mu5Lgg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--  *************************************** -->
+      <!-- TODO: CONTENEDOR DE LA PÁGINA -->
+
+    <div class="container-fluid franja">
+      <div class="row  align-items-center">
+        <section class="col-sm-12 col-md-6 col-lg-8 mb-4">
+          <h2>¿Cómo han evolucionado las tecnologías de IoT?</h2>
+          <p>
+            Los dispositivos de IoT generan más de 40 zettabytes de datos por año –lo cual equivale a 40 billones de gigabytes–. Aunque no podemos cuantificar realmente los datos digitales en términos físicos, podemos decir que si todos esos datos se convirtieran a floppy disks de los años 90 –y estuvieran puestos sobre una alfombra – cubrirían más de la mitad de la superficie terrestre. Para que IoT evolucionara, un conjunto específico de tecnologías debía unirse y avanzar al mismo tiempo. Y al modo del huevo y la gallina, puede ser difícil decir qué desarrollo tecnológico vino primero en la evolución de IoT.
+          </p>
+          <!-- TODO: MODEL CON MÁS INFO -->
+           <!-- Button trigger modal -->
+           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#evolucion">
+            más info...
+          </button>
+          
+
+          <!-- Modal -->
+          <div class="modal fade blanco" id="evolucion" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel2">Evolución de IoT</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <ul>
+                    <li>Conectividad: este enorme crecimiento del volumen de datos de IoT solo podría haber ocurrido con una conectividad a internet y en la nube lo suficientemente robusta como para enviarlos y recibirlos. </li>
+                    <li>Tecnología de sensores: con el constante aumento en la demanda de innovación de sensores de IoT, el mercado pasó de unos pocos y costosos proveedores de nicho a ser una industria de fabricación de sensores altamente globalizada y competitiva en los precios</li>
+                    <li>Inteligencia artificial y machine learning: estas tecnologías les brindan a las empresas la capacidad no solo de gestionar y procesar grandes cantidades de datos de IoT, sino también de analizarlos y aprender de ellos</li>
+                    <li>Computación en la nube: así como la conectividad era parte integral del desarrollo de internet de las cosas, el ascenso de la computación en nube también ha estado estrechamente ligado a su evolución.</li>
+                    <li>Computación Edge: los dispositivos dentro de una red de IoT a menudo se distribuyen mucho geográficamente, aunque todos transmiten datos a un único sistema central. A medida que los volúmenes de datos de IoT crecen cada vez más, pueden comenzar a monopolizar el ancho de banda y la capacidad de la nube de una empresa. </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TODO: FIN MODEL -->
+        </section>
+
+        <section class="col-sm-12 col-md-6 col-lg-4">
+          <img src="img/cosas.png" class="img-fluid" alt="tecnologías de internet de las cosas" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <h5>Derechos Reservados 2021</h5>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
