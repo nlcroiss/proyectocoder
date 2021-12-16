@@ -5,7 +5,7 @@
   border: 1px solid #264653;
   color: #fff;
 }
-.guardar {
+.cancelar {
   width: 100%;
   font-size: 18px;
   background-color: #4caf50;
@@ -20,7 +20,7 @@
     background-color: #044906;
   }
 }
-.cancelar {
+.guardar {
   width: 100%;
   font-size: 18px;
   background-color: #e76f51;
@@ -29,9 +29,12 @@
   margin: 10px auto;
   border: 1px solid #e76f51;
   border-radius: 10px;
-  transition: all 0.5s;
+  transition: all 1s;
 
   &:hover {
     background-color: #9e1d1d;
+    color: #fff;
+    border: 1px solid #9e1d1d;
+    font-size: 19px;
   }
 }

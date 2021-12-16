@@ -61,6 +61,14 @@ body {
   color: #000;
 }
 
+/* TODO: TARJETAS */
+.fondoCard {
+  background-color: #264653;
+  border: 1px solid #264653;
+  color: #fff;
+  box-shadow: 7px 12px 20px rgba(0, 0, 0, 0.6);
+}
+
 /* TODO: botones continuar leyendo */
 .leyendo {
   width: 30%;
@@ -76,15 +84,4 @@ body {
 
 .leyendo:hover {
   background-color: #9e1d1d;
-}
-
-/* ---TODO: pie de página de la página --- */
-
-footer {
-  width: 100%;
-  height: 50px;
-  background-color: #e76f51;
-  color: #fff;
-  text-align: center;
-  line-height: 50px;
 }
