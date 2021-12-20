@@ -1,39 +1,25 @@
 .formulario {
   margin: 50px auto;
   padding: 15px;
-  background-color: #264653;
-  border: 1px solid #264653;
-  color: #fff;
+  background-color: $fondoNavbar;
+  border: 1px solid $fondoNavbar;
+  color: $letraprincipal;
 }
-.cancelar {
-  width: 100%;
-  font-size: 18px;
-  background-color: #4caf50;
-  color: #fff;
-  padding: 12px 20px;
-  margin: 10px auto;
-  border: 1px solid #4caf50;
-  border-radius: 10px;
-  transition: all 0.5s;
 
-  &:hover {
-    background-color: #044906;
-  }
-}
 .guardar {
   width: 100%;
   font-size: 18px;
-  background-color: #e76f51;
-  color: #fff;
+  background-color: $fondoFooter;
+  color: $letraprincipal;
   padding: 12px 20px;
   margin: 10px auto;
-  border: 1px solid #e76f51;
+  border: 1px solid $fondoFooter;
   border-radius: 10px;
   transition: all 1s;
 
   &:hover {
     background-color: #9e1d1d;
-    color: #fff;
+    color: $letraprincipal;
     border: 1px solid #9e1d1d;
     font-size: 19px;
   }

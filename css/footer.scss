@@ -3,8 +3,8 @@
 footer {
   width: 100%;
   /* height: 150px; */
-  background-color: #e76f51;
-  color: #fff;
+  background-color: $fondoFooter;
+  color: $letraprincipal;
   text-align: center;
 }
 
@@ -13,7 +13,7 @@ footer {
   font-size: 2em;
 
   a {
-    color: #fff;
+    color: $letraprincipal;
     padding: 0 5px;
     background-image: -webkit-gradient(
       linear,

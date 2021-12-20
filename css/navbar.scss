@@ -1,9 +1,18 @@
 // barra de navegación principal//
 
+@mixin subrayado {
+  text-decoration: none;
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
 .navbar {
   width: 100%;
-  background-color: #264653;
-  color: #fff;
+  background-color: $fondoNavbar;
+  color: $letraprincipal;
   transition: all 2s;
 
   ul {
@@ -16,13 +25,8 @@
       a {
         display: block;
         padding: 5px;
-        color: #fff;
-        text-decoration: none;
-        background-image: linear-gradient(#fff, #fff);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size 0.3s;
+        color: $letraprincipal;
+        @include subrayado;
       }
     }
   }
@@ -41,8 +45,8 @@
 
 .barra {
   width: 100%;
-  background-color: #e76f51;
-  color: #fff;
+  background-color: $fondoFooter;
+  color: $letraprincipal;
   transition: all 2s;
 
   ul {
@@ -55,13 +59,8 @@
       a {
         display: block;
         padding: 5px;
-        color: #fff;
-        text-decoration: none;
-        background-image: linear-gradient(#fff, #fff);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size 0.3s;
+        color: $letraprincipal;
+        @include subrayado;
       }
     }
   }
@@ -70,5 +69,5 @@
 .barra ul li a:hover,
 .barra ul li a:focus {
   background-size: 100% 2px;
-  color: #fff;
+  color: $letraprincipal;
 }

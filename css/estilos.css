@@ -2,66 +2,6 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-/* TODO: --- Encabezado --- */
-
-.encabezado {
-  width: 100%;
-  height: 350px;
-  background-image: url("../img/portada1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-#principalFondo {
-  width: 100%;
-  height: 100px;
-  position: absolute;
-  top: 100px;
-  background-color: rgba(0, 0, 0, 0.397);
-}
-
-#principalTitulo {
-  color: #fff;
-  text-shadow: 10px 10px 30px rgb(255, 255, 255);
-  margin: 25px auto 20px 35px;
-}
-
-/* TODO:Flexbox para un segundo contenedor */
-
-.area {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.elemento {
-  padding: 20px;
-}
-
-.area-2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.elementoFoto {
-  margin: 10px;
-  padding: 10px;
-  background-color: #264653;
-  color: #fff;
-}
-
-.elementoFoto h3 {
-  padding-bottom: 15px;
-}
-
-.fotito {
-  width: 300px;
-  height: 150px;
-}
-
 /* TODO: contenedor divisorio */
 
 .franja {

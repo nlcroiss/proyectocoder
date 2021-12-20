@@ -1,4 +1,28 @@
 @charset "UTF-8";
+/* TODO: --- Encabezado --- */
+.encabezado {
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/portada1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#principalFondo {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  background-color: rgba(0, 0, 0, 0.397);
+}
+
+#principalTitulo {
+  color: #fff;
+  text-shadow: 10px 10px 30px #fff;
+  margin: 25px auto 20px 35px;
+}
+
 .navbar {
   width: 100%;
   background-color: #264653;
@@ -80,23 +104,6 @@
   background-color: #264653;
   border: 1px solid #264653;
   color: #fff;
-}
-
-.cancelar {
-  width: 100%;
-  font-size: 18px;
-  background-color: #4caf50;
-  color: #fff;
-  padding: 12px 20px;
-  margin: 10px auto;
-  border: 1px solid #4caf50;
-  border-radius: 10px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.cancelar:hover {
-  background-color: #044906;
 }
 
 .guardar {
