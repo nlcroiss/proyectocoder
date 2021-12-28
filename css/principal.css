@@ -1,5 +1,17 @@
 @charset "UTF-8";
 /* TODO: VARIABLES GLOBALES */
+/* TODO: Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .imagenTitulo {
+    width: 44px;
+    height: 44px; } }
+
+/* TODO: X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .imagenTitulo {
+    width: 48px;
+    height: 48px; } }
+
 /* TODO: ENCABEZADO DE LA PÁGINA WEB  */
 .encabezado {
   width: 100%;
@@ -21,9 +33,10 @@
   text-shadow: 10px 10px 30px #fff;
   margin: 25px auto 20px 50px; }
 
-#imagenTitulo {
+.imagenTitulo {
   position: absolute;
-  top: 25px; }
+  top: 25px;
+  left: 3px; }
 
 /* TODO: barra de navegación principal*/
 .navbar {
