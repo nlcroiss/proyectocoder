@@ -38,6 +38,9 @@
   top: 25px;
   left: 3px; }
 
+.nada {
+  color: red; }
+
 /* TODO: barra de navegación principal*/
 .navbar {
   width: 100%;
