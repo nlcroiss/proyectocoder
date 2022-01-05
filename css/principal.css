@@ -1,21 +1,29 @@
 @charset "UTF-8";
 /* TODO: VARIABLES GLOBALES */
+@media (max-width: 768px) {
+  #slideTexto {
+    display: none; } }
+
 /* TODO: Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .imagenTitulo {
     width: 44px;
-    height: 44px; } }
+    height: 44px; }
+  .carousel-caption {
+    font-size: 1.1em; } }
 
 /* TODO: X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .imagenTitulo {
     width: 48px;
-    height: 48px; } }
+    height: 48px; }
+  .carousel-caption {
+    font-size: 1.4em; } }
 
 /* TODO: ENCABEZADO DE LA PÁGINA WEB  */
 .encabezado {
   width: 100%;
-  height: 350px;
+  height: 20em;
   background-image: url("../img/portada1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,7 +34,8 @@
   height: 100px;
   position: absolute;
   top: 100px;
-  background-color: rgba(0, 0, 0, 0.397); }
+  background-color: rgba(0, 0, 0, 0.397);
+  box-shadow: -10px 5px 10px #000, 5px -3px 5px #000; }
 
 #principalTitulo {
   color: #fff;
@@ -38,8 +47,16 @@
   top: 25px;
   left: 3px; }
 
-.nada {
-  color: red; }
+/* TODO: PERSONALIZACIÓN DEL SLIDE */
+.carousel-item {
+  height: 20em;
+  position: relative;
+  bottom: 30px; }
+
+.carousel-caption {
+  color: #fff;
+  font-weight: 900;
+  text-shadow: 2px 5px 5px #000, 2px -5px 5px #000; }
 
 /* TODO: barra de navegación principal*/
 .navbar {
