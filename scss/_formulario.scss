@@ -17,6 +17,15 @@
   color: $letraprincipal;
 }
 
+.textoForm {
+  color: #000;
+}
+
+textarea {
+  height: 100px;
+  color: #000;
+}
+
 .guardar {
   @extend %boton;
   background-color: $fondoFooter;

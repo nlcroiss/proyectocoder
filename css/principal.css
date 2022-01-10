@@ -24,7 +24,7 @@
 .encabezado {
   width: 100%;
   height: 20em;
-  background-image: url("../img/portada1.jpg");
+  background-image: url("../img/portada4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -128,6 +128,13 @@
   background-color: #264653;
   border: 1px solid #264653;
   color: #fff; }
+
+.textoForm {
+  color: #000; }
+
+textarea {
+  height: 100px;
+  color: #000; }
 
 .guardar {
   background-color: #e76f51;
