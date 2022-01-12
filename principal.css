@@ -1,9 +1,29 @@
 @charset "UTF-8";
 /* TODO: VARIABLES GLOBALES */
+@media (max-width: 768px) {
+  #slideTexto {
+    display: none; } }
+
+/* TODO: Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .imagenTitulo {
+    width: 44px;
+    height: 44px; }
+  .carousel-caption {
+    font-size: 1.1em; } }
+
+/* TODO: X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .imagenTitulo {
+    width: 48px;
+    height: 48px; }
+  .carousel-caption {
+    font-size: 1.4em; } }
+
 /* TODO: ENCABEZADO DE LA PÁGINA WEB  */
 .encabezado {
   width: 100%;
-  height: 16em;
+  height: 20em;
   background-image: url("../img/portada4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,7 +31,7 @@
 
 #principalFondo {
   width: 100%;
-  height: 80px;
+  height: 100px;
   position: absolute;
   top: 100px;
   background-color: rgba(0, 0, 0, 0.397);
@@ -151,30 +171,3 @@ footer {
     transition: background-size 0.3s; }
     .iconos a:hover {
       background-size: 100% 2px; }
-
-/* TODO: small devices (celular) */
-@media (max-width: 768px) {
-  #slideTexto {
-    display: none; } }
-
-/* TODO: Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .encabezado {
-    width: 100%;
-    height: 20em; }
-  #principalFondo {
-    width: 100%;
-    height: 100px; }
-  .imagenTitulo {
-    width: 44px;
-    height: 44px; }
-  .carousel-caption {
-    font-size: 1.1em; } }
-
-/* TODO: X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .imagenTitulo {
-    width: 48px;
-    height: 48px; }
-  .carousel-caption {
-    font-size: 1.4em; } }
